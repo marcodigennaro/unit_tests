@@ -57,3 +57,4 @@ class PhoneBookTest(unittest.TestCase):
         self.phonebook.add("Sue", "123")
         self.assertFalse(
             self.phonebook.is_consistent())
+
